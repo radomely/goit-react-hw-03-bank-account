@@ -1,0 +1,15 @@
+.balance {
+  margin: 36px 0;
+}
+.balance span {
+  margin: 0 14px;
+  font-weight: 700;
+}
+.balanceDeposit::before {
+  content: '\2191';
+  color: #96c562;
+}
+.balanceWithdrawal::before {
+  content: '\2193';
+  color: #e83a3e;
+}
